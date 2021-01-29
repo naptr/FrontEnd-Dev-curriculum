@@ -1,0 +1,5 @@
+SET var1 = "Ini Var 1"
+SET var2 = "Ini Var 2"
+
+TULIS var1
+TULIS var2
