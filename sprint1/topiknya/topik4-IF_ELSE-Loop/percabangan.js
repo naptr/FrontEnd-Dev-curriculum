@@ -67,13 +67,13 @@ if (true) {
 // Switch - Case - Break
 
 // Switch form
-switch (expression) {
-  case expression:
-
-    break;
-  default:
-
-}
+// switch (expression) {
+//   case expression:
+//
+//     break;
+//   default:
+//
+// }
 
 // Contoh Switch
 var x = 0;

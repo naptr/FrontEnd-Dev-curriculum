@@ -35,3 +35,16 @@ function otherFunc(person1, ...others) { // -> Function with uncertain parameter
 }
 
 otherFunc("Saya", "Dia", "Kamu", "Kita");
+
+// Another function form;
+const myFunc1 = function(age) { // make const variable and the declare the function with the procedur
+  console.log(`I'am ${age} years old`);
+}
+
+
+const myFunc2 = (name) => { // similar function calling method with "function" syntax changed to "=>"
+  console.log(`Halo ${name}!`);
+}
+
+myFunc2("Putra");
+myFunc1(12);
