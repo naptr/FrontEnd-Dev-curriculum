@@ -41,10 +41,6 @@ const myFunc1 = function(age) { // make const variable and the declare the funct
   console.log(`I'am ${age} years old`);
 }
 
-
-const myFunc2 = (name) => { // similar function calling method with "function" syntax changed to "=>"
-  console.log(`Halo ${name}!`);
-}
-
+const myFunc2 = (name) => console.log(`Halo ${name}!`); // similar function calling method with "function" syntax changed to "=>"
 myFunc2("Putra");
 myFunc1(12);
