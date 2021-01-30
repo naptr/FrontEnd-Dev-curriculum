@@ -30,7 +30,7 @@ var x = isLima();
 console.log(x);
 
 
-function otherFunc(person1, ...others) { // -> Function with uncertain parameter, can give as much parameter
+function otherFunc(person1, ...others) { // -> Function with uncertain parameter, can give as much parameter (Spread Operator)
     console.log(person1 + ", " + others.join(", "))
 }
 
