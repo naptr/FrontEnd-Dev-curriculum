@@ -1,3 +1,5 @@
+// Arrow function
+
 var obj = {
   myFunc: () => "value ini direturn",   // using arrow function to simplify in making funtion with return value (auto return)
   myFunc2: (param) => "value ini kembali direturn "+param,   // auto return with params
