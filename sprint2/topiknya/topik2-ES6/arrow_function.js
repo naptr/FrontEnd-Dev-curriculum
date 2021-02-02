@@ -1,4 +1,6 @@
+
 // Arrow function
+// function with auto return feature
 
 var obj = {
   myFunc: () => "value ini direturn",   // using arrow function to simplify in making funtion with return value (auto return)
@@ -9,7 +11,9 @@ var obj = {
   myFuncFunc: function () {
     console.log(this);
   },
-  myFuncArrow: () => {console.log(this)}
+  myFuncArrow: () => {
+    console.log(this)
+  }  // undefined
 }
 
 console.log(obj.myFunc());
