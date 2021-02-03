@@ -1,22 +1,32 @@
 // Asynchronous
 
 // example 1
-function naik_bus() {
+function naik_bus(rainy) {
   return new Promise(
     function (resolve, reject) {
-      setTimeout(resolve, 5000);
+      setTimeout(
+        () => {
+          if (rainy == true) {
+            reject("tidak bisa naik bus");
+          } else {
+            resolve("gaskan naik");
+          }
+        }, 5000
+      );
     }
   )
 }
 
-function app_1() {
+async function app_1() {
   console.log("naik bus");
-  naik_bus().then(() => {
-    console.log("bus sudah datang, ayo naik");
+  await naik_bus(false).then((text) => {
+    console.log(text);
+  }).catch((err) => {
+    console.log(err)
   })
 }
 
-app_1();
+// app_1();
 
 // example 2
 function ride_the_bus(rainy) {
@@ -58,4 +68,4 @@ async function app_2() {
   }
 }
 
-// app_2();
+app_2();
