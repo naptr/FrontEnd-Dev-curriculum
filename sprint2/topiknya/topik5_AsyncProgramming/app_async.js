@@ -1,24 +1,22 @@
 // Asynchronous
 
 // example 1
-// function naik_bus() {
-//   return new Promise(
-//     function (resolve, reject) {
-//       setTimeout(resolve, 5000);
-//     }
-//   )
-// }
-//
-// console.log("naik bus");
-// naik_bus().then(() => {
-//   console.log("bus sudah datang, ayo naik");
-// })
+function naik_bus() {
+  return new Promise(
+    function (resolve, reject) {
+      setTimeout(resolve, 5000);
+    }
+  )
+}
 
-// var cons_promise = new Promise((resolve, reject) => {
-//   setTimeout(resolve, 3000);
-// });
-//
-// console.log(cons_promise);
+function app_1() {
+  console.log("naik bus");
+  naik_bus().then(() => {
+    console.log("bus sudah datang, ayo naik");
+  })
+}
+
+app_1();
 
 // example 2
 function ride_the_bus(rainy) {
@@ -37,8 +35,8 @@ function ride_the_bus(rainy) {
   )
 }
 
-console.log("naik bus");
 function app() {
+  console.log("naik bus");
   var going = ride_the_bus(true);
   going.then(
     (text) => console.log(text),
@@ -60,4 +58,4 @@ async function app_2() {
   }
 }
 
-app_2();
+// app_2();
