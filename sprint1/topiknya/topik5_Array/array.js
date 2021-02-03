@@ -50,3 +50,8 @@ console.log(groups);
 var fruits = ["apple", "grape", "kiwi", "orange", "rambutans", "guava"];
 console.log(fruits.slice(3)); // -> take elements from the array starts from given parameter index until the last element of array, if the second parameter were not given
 console.log(fruits.slice(1, 3));  // -> take elements from the array starts with first parameter given as index until the second parameter given index.
+
+var arr = [1, 2, 3, 4, 5];
+arr.map((arr_el) => {
+  return arr_el*2/3;
+})
