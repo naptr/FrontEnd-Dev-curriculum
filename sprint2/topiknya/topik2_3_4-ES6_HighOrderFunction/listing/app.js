@@ -28,7 +28,7 @@ console.log(Utils);
 print("object");
 Utils.func1();
 Utils.ini_variable(
-  function (required_param,...param1) {
+  function (required_param,...param1) { // Callback
     console.log(`ini hof, print: ${param1[0]}, param2: ${param1[1]}, param3: ${required_param}`);
   }
 );

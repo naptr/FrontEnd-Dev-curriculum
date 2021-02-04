@@ -51,6 +51,19 @@ var fruits = ["apple", "grape", "kiwi", "orange", "rambutans", "guava"];
 console.log(fruits.slice(3)); // -> take elements from the array starts from given parameter index until the last element of array, if the second parameter were not given
 console.log(fruits.slice(1, 3));  // -> take elements from the array starts with first parameter given as index until the second parameter given index.
 
+// Find -> find and take first element based on given condition/s
+var arr_find = [2, 3, 4, 5, 6];
+arr_find.find((el) => {
+  return el%2==0; // output expected -> [2]
+})
+
+// Filter -> find and take elements that statisfy the given conditions #not only one
+var arr_filter = [2, 3, 4, 5, 6, 7, 8];
+arr_filter.filter((el) => {
+  return el%2==0;
+})
+
+// Map -> processing current array then return to new array based on processing function
 var arr = [1, 2, 3, 4, 5];
 arr.map((arr_el) => {
   return arr_el*2/3;
