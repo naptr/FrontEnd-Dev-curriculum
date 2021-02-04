@@ -79,7 +79,7 @@ console.log(kucil);
 
 
 // spread operator (ES6)
-jojo = {
+jojo = {  // update object properties
   ...jojo,  // stack old object except that want to change
   meong: function () {
     console.log("jojo bisa ngomong");

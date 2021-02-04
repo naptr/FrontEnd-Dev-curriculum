@@ -1,3 +1,5 @@
+## Facts
+
 1. Penulisan object menggunakan {}.
 2. Dipisahkan dengan ", " (koma).
 3. Ada yang namanya method.
