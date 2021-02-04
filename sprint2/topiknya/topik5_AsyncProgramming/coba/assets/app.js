@@ -2,7 +2,7 @@ const div = document.getElementById("display");
 div.innerHTML = "Aplikasi sedang berjalan";
 
 function buttonClicked() {
-  console.log("clicked");
+  console.log("fetching data to server");
   // getDataFromServer().then(
   //   (text) => {
   //     console.log(text);
@@ -29,10 +29,12 @@ function promiseWithObject() {
   getDataFromServer().then(
     () => {
       div.innerHTML = "Akses berhasil";
+      console.log("done")
     }
   ).catch(
     () => {
       div.innerHTML = "Terjadi Error";
+      console.log("error");
     }
   )
 };
