@@ -11,7 +11,7 @@ var obj = {
   myFuncFunc: function () {
     console.log(this);
   },
-  myFuncArrow: () => {
+  myFuncArrow: () => {  // arrow function doesn't catch the main object
     console.log(this)
   }  // undefined
 }

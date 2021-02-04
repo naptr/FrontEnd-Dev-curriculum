@@ -10,7 +10,7 @@ class Post {
   }
 }
 
-var post1 = new Post(01, "Test title lama", "Ini konten");
+var post1 = new Post(1, "Test title lama", "Ini konten");
 
 console.log(post1);
 
