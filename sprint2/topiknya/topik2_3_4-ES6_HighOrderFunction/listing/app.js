@@ -28,11 +28,11 @@ console.log(Utils);
 print("object");
 Utils.func1();
 Utils.ini_variable(
-  (required_param,...param1) => { // Callback with Rest (...)
+  (required_param,...param1) => { // Callback with Rest (...) -> this is High Order Function
     console.log(`ini hof, print: ${param1[0]}, param2: ${param1[1]}, param3: ${required_param}`);
   }
 );
 
 
-// Bactic
+// Backtic
 // Rest -> Make given params into an array

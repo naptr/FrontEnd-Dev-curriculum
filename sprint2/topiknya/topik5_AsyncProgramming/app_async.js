@@ -31,7 +31,7 @@ async function app_1() {
 // example 2
 function ride_the_bus(rainy) {
   return new Promise(
-    function (resolve, reject) {
+    (resolve, reject) => {
       setTimeout(
         () => {
           if (rainy == true) {
@@ -60,7 +60,7 @@ function app() {
 async function app_2() {
   try {
     console.log("sedang menunggu bus");
-    var result = await ride_the_bus(false);
+    var result = await ride_the_bus(true);
     console.log(result);
     console.log("selesai menunggu");
   } catch(error) {
