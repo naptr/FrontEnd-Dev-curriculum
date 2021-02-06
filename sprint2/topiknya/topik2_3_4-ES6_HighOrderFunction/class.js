@@ -1,6 +1,10 @@
 // Class
 // equivalent to creating object using constructor function
 
+// dalam membuat class, constructor diisi oleh parameter agar class bisa diisi dengan inputan yang berbeda
+// karena perbedaan pembuatan objek menggunakan class dan objek literal adalah di mana class memiliki parameter yang dapat
+// diberikan sesuai dengan kebutuhan (dinamis), sedangkan objek literal property objek bersifat statis yang mana sudah diisi sebelumnya.
+
 class Person {  // Creating object
   constructor(name) { // initialized once the class called
     this.name = name;

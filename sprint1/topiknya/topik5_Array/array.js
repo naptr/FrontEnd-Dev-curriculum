@@ -60,11 +60,11 @@ arr_find.find((el) => {
 // Filter -> find and take elements that statisfy the given conditions #not only one
 var arr_filter = [2, 3, 4, 5, 6, 7, 8];
 arr_filter.filter((el) => {
-  return el%2==0;
+  return el%2==0; // output expected -> [2, 4, 6, 8]
 })
 
 // Map -> processing current array then return to new array based on processing function
 var arr = [1, 2, 3, 4, 5];
 arr.map((arr_el) => {
-  return arr_el*2/3;
+  return arr_el*2;  // output expected -> [2, 4, 6, 8, 10]
 })

@@ -1,6 +1,6 @@
 // Object
 
-// Creating object
+// Creating object -> this is how we create object using object literal
 var murid = {
   nama: "nama",
   kota: "Jogja",
@@ -25,7 +25,7 @@ var kucing = {
     }
   },
   pipis: function (banyak_pipis) {
-    berapa_kali = 0;
+    let berapa_kali = 0;
     for (let i = 0; i < banyak_pipis; i++) {
       berapa_kali++;
     }
@@ -101,3 +101,16 @@ jojo.meong();
 
 
 // alternative for building object
+class Kucing2 {
+  constructor() {
+    this.name = "Kucing";
+  }
+
+  mengeong() {
+    console.log("meong");
+  }
+}
+
+var hewanApakahini = new Kucing2();
+console.log(hewanApakahini.name);
+hewanApakahini.mengeong();

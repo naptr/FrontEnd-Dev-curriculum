@@ -1,4 +1,4 @@
-import * as Utils from "./utils.js";
+import * as Utils from "./utils.js"; // mengimport module dengan Desctructuring -> import {module} from "./path/to/module.js";
 
 // print("Hello World");
 
@@ -11,7 +11,7 @@ var obj = {
   division: "frontend"
 };
 
-var {name, division} = obj;
+var {name, division} = obj; // Desctructuring
 
 console.log(`${name}, ${division}`);
 

@@ -63,7 +63,7 @@ async function app_2() {
     var result = await ride_the_bus(true);
     console.log(result);
     console.log("selesai menunggu");
-  } catch(error) {
+  } catch (error) { // catch selalu memiliki parameter yang berguna untuk menangkap atau menampung error yang ada
     console.log(`errornya adalah: ${error}`);
   }
 }
