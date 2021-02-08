@@ -18,7 +18,7 @@ console.log(`${name}, ${division}`);
 // Array Desctructuring
 var arr = [1, 2];
 
-var [el1, el2] = arr;
+var [el1, el2] = arr; // -> Array Desctructuring
 console.log(`[${el1}, ${el2}]`);
 
 // Desctructuring function from imported module
