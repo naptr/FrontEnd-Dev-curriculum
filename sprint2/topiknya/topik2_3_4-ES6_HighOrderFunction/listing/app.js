@@ -11,7 +11,7 @@ var obj = {
   division: "frontend"
 };
 
-var {name, division} = obj; // Desctructuring
+// var {name, division} = obj; // Desctructuring
 
 console.log(`${name}, ${division}`);
 
