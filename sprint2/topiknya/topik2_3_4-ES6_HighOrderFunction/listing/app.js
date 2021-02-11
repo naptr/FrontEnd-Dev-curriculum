@@ -22,7 +22,7 @@ var [el1, el2] = arr; // -> Array Desctructuring
 console.log(`[${el1}, ${el2}]`);
 
 // Desctructuring function from imported module
-var {print, func1} = Utils;
+var {print, func1} = Utils; // Object properties knowledge is important
 console.log(Utils);
 
 print("object");
