@@ -61,7 +61,7 @@ async function app_while(ip, byte, data) {
   // let time = 0;
   console.log(`PING ${ip} (${ip}) 56(84) bytes of data`);
   while (true) {
-    console.log(`64 bytes from ${ip}: icmp_seq=${j} time=${i} ms`);
+    console.log(`64 bytes from ${ip}: icmp_seq=${j} time=${i.toFixed(2)} ms`);
     await stop_whileLoop(1000);
     // time += 0.36;
     j++;

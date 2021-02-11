@@ -2,7 +2,7 @@
 let iniVar = 1; // let variable declaration
 
 function scope() {  // Scope -> current context
-  var funct1 = function() { // Variable that created inside scope cannot called outside scope1
+  var funct1 = function() { // Variable that created inside scope cannot called outside scope1 -> only gettting called inside function, but can be called outside if or loop statement
     console.log(iniVar);
   }
   funct1();

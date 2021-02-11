@@ -12,7 +12,7 @@ export default {
 }
 
 
-export var ini_variable = function(par_func) {  // this is how we declare high order function
-  par_func("Ini dari dalam hof", 12, [1, 2, 3, 4, 5]);
-  console.log("Function sebagai value/ high ordered function");
+export var ini_variable = function(par_func) {  // this is how we declare first-class function
+  par_func("Ini dari dalam first-class", 12, [1, 2, 3, 4, 5]);
+  console.log("Function sebagai value/ first-classed function");
 }
