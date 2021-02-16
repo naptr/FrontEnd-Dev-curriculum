@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 .App {
   text-align: center;
 }
@@ -38,15 +40,17 @@
 }
 
 .header {
-  padding: 20px;
+  padding: 20px 0;
   background-color: #00CED1;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .header h1 {
   padding: 0 0 5px 0;
   margin: 0;
   color: white;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .main-container {
@@ -54,9 +58,10 @@
 }
 
 .main {
+  font-family: 'Quicksand', sans-serif;
   border: 2px solid #00CED1;
   border-radius: 8px;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .btn1 {
