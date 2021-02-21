@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <input type="text" id="input" value="0">
+      <div class="buttons">
+        <div class="row-1">
+          <button onclick="insertNum('7')">7</button>
+          <button onclick="insertNum('8')">8</button>
+          <button onclick="insertNum('9')">9</button>
+          <button onclick="insertOp('add')">+</button>
+        </div>
+        <div class="row-2">
+          <button onclick="insertNum('4')">4</button>
+          <button onclick="insertNum('5')">5</button>
+          <button onclick="insertNum('6')">6</button>
+          <button onclick="insertOp('subtract')">-</button>
+        </div>
+        <div class="row-3">
+          <button onclick="insertNum('1')">1</button>
+          <button onclick="insertNum('2')">2</button>
+          <button onclick="insertNum('3')">3</button>
+          <button onclick="insertOp('multiply')">*</button>
+        </div>
+        <div class="row-4">
+          <button onclick="clearAll()">C</button>
+          <button onclick="insertNum('0')">0</button>
+          <button onclick="insertNum('.')">.</button>
+          <button onclick="insertOp('divide')">/</button>
+        </div>
+        <div>
+          <button onclick="calculateOperand()">=</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
