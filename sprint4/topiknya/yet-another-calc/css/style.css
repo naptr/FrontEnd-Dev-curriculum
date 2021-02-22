@@ -34,11 +34,15 @@ footer {
   font-size: 60px;
   height: 60px;
   width: 150px;
+  cursor: pointer;
 }
 #content #menus {
   margin: 20px 0 0 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+#content #menus button {
+  cursor: pointer;
 }
 #content h1, #content p {
   font-family: "Open Sans", sans-serif;
@@ -66,6 +70,7 @@ main .calc button {
   transition: 0.3s;
   color: #2c3e50;
   font-size: 30px;
+  cursor: pointer;
 }
 main .calc .operator {
   border-radius: 0px;
@@ -99,6 +104,7 @@ main .eq-key {
   width: 240px;
   border: none;
   font-size: 30px;
+  cursor: pointer;
 }
 main #back {
   margin: 20px 0 0 0;
@@ -110,6 +116,7 @@ main #back button {
   height: 30px;
   transition: 2s;
   font-size: 18px;
+  cursor: pointer;
 }
 main #back button:hover {
   color: #fff;

@@ -37,11 +37,16 @@ footer {
     font-size: 60px;
     height: 60px;
     width: 150px;
+    cursor: pointer;
   }
   #menus {
     margin: 20px 0 0 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+
+    button {
+      cursor: pointer;
+    }
   }
 
   h1, p {
@@ -73,6 +78,7 @@ main {
       transition: 0.3s;
       color: #2c3e50;
       font-size: 30px;
+      cursor: pointer;
     }
 
     .operator {
@@ -114,6 +120,7 @@ main {
     width: 240px;
     border: none;
     font-size: 30px;
+    cursor: pointer;
   }
 
   #back {
@@ -123,6 +130,7 @@ main {
       height: 30px;
       transition: 2s;
       font-size: 18px;
+      cursor: pointer;
 
       &:hover {
         color: #fff;

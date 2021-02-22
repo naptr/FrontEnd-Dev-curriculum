@@ -11,8 +11,8 @@ function buttonClicked() {
   //   }
   // )
   div.innerHTML = "accessing server please wait";
-  // promiseWithAwait();
   promiseWithObject();
+  // promiseWithAwait();
 };
 
 async function promiseWithAwait() {
@@ -27,14 +27,14 @@ async function promiseWithAwait() {
 
 function promiseWithObject() {
   getDataFromServer().then(
-    () => {
+    (text) => {
       div.innerHTML = "Akses berhasil";
-      console.log("done")
+      console.log(text)
     }
   ).catch(
-    () => {
+    (error) => {
       div.innerHTML = "Terjadi Error";
-      console.log("error");
+      console.log(error);
     }
   )
 };

@@ -17,7 +17,7 @@ const iniConst = [];  // uneditable variable, cannot assigned
 
 function pushConst(num) {
   for (let i = 0; i < num; i++) {
-    iniConst.push(i+1); // only works using method from object
+    iniConst.push(i+1); // only works using method from object, for assigning or adding something in this case const iniConst acts as an array
   }
   return iniConst;
 }
@@ -28,7 +28,7 @@ console.log(result);
 
 // Difference between var and let
 // let -> block scope, only works in one line
-// var -> scope general, except using inside another function scope
+// var -> scope general, except used inside another function scope
 
 
 // weak scope
