@@ -23,8 +23,8 @@ arr[4] = "ok";
 
 // Mean dari sebuah Array
 
-newArray = [2, 3, 4, 5, 6, 0, 99, 21, 78, 998, 201]
-result = 0;
+var newArray = [2, 3, 4, 5, 6, 0, 99, 21, 78, 998, 201]
+var result = 0;
 
 for (var i = 0; i < newArray.length; i++) {
   result += newArray[i];

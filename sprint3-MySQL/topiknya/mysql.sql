@@ -1,4 +1,4 @@
-/*Create Database*/
+c/*Create Database*/
 CREATE DATABASE database_name;
 
 /*Show existing database*/
@@ -27,4 +27,4 @@ DROP TABLE table_name;
 SELECT * FROM table_name; /*Asterisk sign can be replaced by column name that going to displayed*/
 
 
-/*TO BE CONTINUED ..*/
+/*TO BE CONTINUED ..*/  

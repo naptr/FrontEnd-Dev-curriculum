@@ -19,7 +19,7 @@ var kucing = {
   name: "Dio",
   color: "ijo",
   size: "smol",
-  bicara: () => {
+  bicara: function () {
     for (var i = 0; i < 3; i++) {
       console.log("meong")
     }

@@ -115,7 +115,7 @@
 //
 // // seharusnya menampilkan "[0,1,2,9,8,7,6,5,4,3,2,1]" pada terminal
 // console.log(array2);
-
+//
 // const getMax = (...other) => {
 //   number = [...other];
 //   result = 0;
@@ -129,7 +129,7 @@
 //
 // const getmax_var = getMax(2, 3, 4, 5, 6, 12, 34, 5, 1, 3, 90, 123, 124, 5, 123, 421, 1231);
 // console.log(getmax_var);
-
+//
 // some random arr
 // var arr = [ 2, 1, 4, 'cat', false ] ;
 // // foo array is "holder" of dynamic variables
